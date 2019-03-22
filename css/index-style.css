@@ -1,0 +1,76 @@
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Futura","Trebuchet MS","Arial","sans-serif";
+    overflow-x: hidden;
+}
+
+/*start vertical navbar*/
+
+@supports ((display: -webkit-box) or (display: flex)) {
+    .left-bar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@supports !((display: -webkit-box) or (display: flex)) {
+    .left-bar {
+        display: block;
+        padding-top: 200px;
+    }
+}
+
+.left-bar {
+    position: fixed;
+    list-style-type: none;
+    overflow: auto;
+    margin: 0;
+    width: 250px;
+    min-width: 250px;
+    height: 100%;
+    background-color: #1d1d1d;
+}
+
+.left-bar img {
+    position: absolute;
+    top: 26px;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 16px;
+    color: #fff;
+}
+
+.nav-item a.active {
+    font-style: oblique;
+    color: #fff;
+}
+
+.copyright {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    font-size: 10pt;
+}
+
+/* end vertical navbar*/
