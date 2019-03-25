@@ -72,7 +72,7 @@ body {
     font-size: 10pt;
 }
 
-/* div formatting vn */ 
+/* div formatting vn */
 .trailers {
     margin-left:250px;
     height: 100%;
@@ -112,7 +112,6 @@ body {
 
 .project-title {
     font-style: italic;
-    float: left;
     display: inline-block;
     padding-bottom: 4px;
     font-size: 20pt;
@@ -136,7 +135,6 @@ body {
 }
 
 #title-right {
-    float: right;
     text-align: right;
 }
 
