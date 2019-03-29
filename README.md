@@ -1,4 +1,4 @@
-# pesky
+# PeskyArtist
 
 This is the HTML/CSS for the new Pesky Artist website.
 
