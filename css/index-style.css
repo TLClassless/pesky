@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700i');
+
 body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Futura","Trebuchet MS","Arial","sans-serif";
+    font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
     overflow-x: hidden;
 }
 
@@ -22,7 +24,7 @@ body {
     }
 }
 
-@supports !((display: -webkit-box) or (display: flex)) {
+@supports  !((display: -webkit-box) or (display: flex)) {
     .left-bar {
         display: block;
         padding-top: 200px;
@@ -83,7 +85,7 @@ body {
 
 /* div formatting vn */
 .trailers {
-    margin-left:250px;
+    margin-left: 250px;
     height: 100%;
     height: 100vh;
 }
@@ -104,7 +106,29 @@ body {
 /* title formatting */
 
 .titleContainer {
-    
+    width: 100%;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40pt;
+    letter-spacing: -3px;
+}
+
+.titleContainer-w {
+    width: 100%;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40pt;
+    letter-spacing: -3px;
+    color: #fff;
+}
+
+.ptOne {
+    display: inline-block;
+}
+
+.ptTwo {
+    display: inline-block;
+    color: #00a29b;
 }
 
 /* trailer */
@@ -119,17 +143,11 @@ body {
 
 /* projects */
 
-.projectTitle {
-    
-    font-style: italic;
-    display: inline-block;
-    font-size: 30pt;
-}
-
 .projects {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .project-container {
     display: inline-block;
     width: 100%;
@@ -140,7 +158,7 @@ body {
 }
 
 .project-title {
-    font-style: italic;
+    font-family: 'PT Sans', sans-serif;
     display: inline-block;
     padding-bottom: 4px;
     font-size: 20pt;
@@ -157,7 +175,8 @@ body {
     float: right;
     height: auto;
     margin-left: 20px;
-    width: 20%;}
+    width: 20%;
+}
 
 .project-description {
     display: block;
@@ -175,7 +194,32 @@ body {
     background-color: #1d1d1d;
     overflow: visible;
     width: 100%;
-    height: 400px;
+    color: #fff;
+}
+
+.headshot-container {
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.headshot {
+    border-radius: 200px;
+    height: 200px;
+    width: auto;
+    padding: 10px;
+}
+
+.khs {
+    border: 3px #fff;
+}
+
+.bhs {
+    border: 3px #00a29b;
+}
+
+.chs {
+    border: 3px #fff;
 }
 
 .about-description {
