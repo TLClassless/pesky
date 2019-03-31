@@ -103,23 +103,34 @@ body {
     padding-bottom: 6px;
 }
 
+.blog {
+    margin-left: 250px;
+    padding: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
 /* title formatting */
 
 .titleContainer {
+    display: block;
     width: 100%;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
     font-size: 40pt;
     letter-spacing: -3px;
+    padding-bottom: 10px;
 }
 
 .titleContainer-w {
+    display: block;
     width: 100%;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
     font-size: 40pt;
     letter-spacing: -3px;
     color: #fff;
+    padding-bottom: 10px;
 }
 
 .ptOne {
@@ -168,14 +179,14 @@ body {
     float: left;
     height: auto;
     margin-right: 20px;
-    width: 20%;
+    width: 300px;
 }
 
 .project-img-r {
     float: right;
     height: auto;
     margin-left: 20px;
-    width: 20%;
+    width: 300px;
 }
 
 .project-description {
@@ -189,8 +200,8 @@ body {
 /* about */
 
 .about-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     background-color: #1d1d1d;
     overflow: visible;
     width: 100%;
@@ -208,6 +219,8 @@ body {
     height: 200px;
     width: auto;
     padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .khs {
@@ -225,4 +238,42 @@ body {
 .about-description {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+/* blog */
+
+.blog-container {
+    width: 100%;
+    text-align: center;
+}
+
+.blog-post {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
+
+.blog-pic {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blog-title {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    padding-bottom: 4px;
+    font-size: 20pt;
+}
+
+.blog-content {
+    padding: 5px;
+    text-align: left;
+}
+
+.blogcta {
+    text-decoration: underline;
 }
