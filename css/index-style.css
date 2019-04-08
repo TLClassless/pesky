@@ -39,7 +39,7 @@ body {
     width: 250px;
     min-width: 250px;
     height: 100%;
-    background-color: #1d1d1d;
+    background-color: #0c0c0c;
 }
 
 .left-bar img {
@@ -95,12 +95,14 @@ body {
     padding: 50px;
     padding-top: 6px;
     padding-bottom: 6px;
+    color: #0c0c0c;
 }
 
 .about {
     margin-left: 250px;
     padding-top: 6px;
     padding-bottom: 6px;
+    color: #0c0c0c;
 }
 
 .blog {
@@ -108,6 +110,7 @@ body {
     padding: 50px;
     padding-top: 6px;
     padding-bottom: 6px;
+    color: #0c0c0c;
 }
 
 /* title formatting */
@@ -120,6 +123,7 @@ body {
     font-size: 40pt;
     letter-spacing: -3px;
     padding-bottom: 10px;
+    color: #0c0c0c;
 }
 
 .titleContainer-w {
@@ -148,7 +152,7 @@ body {
 }
 
 .trailer-container {
-    background-color: #1d1d1d;
+    background-color: #0c0c0c;
     background-image: url("/img/placeholder.png");
     background-position: center;
     background-size: cover;
@@ -216,7 +220,7 @@ body {
 .about-container {
     padding-top: 30px;
     padding-bottom: 50px;
-    background-color: #1d1d1d;
+    background-color: #0c0c0c;
     overflow: visible;
     width: 100%;
     color: #fff;
