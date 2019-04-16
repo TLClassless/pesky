@@ -31,6 +31,10 @@ body {
     }
 }
 
+.mobile-only-head {
+    display: none;
+}
+
 .left-bar {
     position: fixed;
     list-style-type: none;

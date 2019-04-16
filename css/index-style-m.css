@@ -1,0 +1,32 @@
+/* desktop exclusion */
+.left-bar .nav-item {
+    display: none;
+}
+
+.copyright {
+    display: none;
+}
+
+.desktop-only-head {
+    display: none;
+}
+
+/* header */
+
+.body {
+    overflow-x:hidden;
+}
+
+.left-bar {
+    text-align: center;
+    overflow: hidden;
+    background-color: #0c0c0c;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+.left-bar img {
+    height: 200px;
+    width: 100px;
+}
