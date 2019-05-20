@@ -130,6 +130,13 @@ body {
     color: #0c0c0c;
 }
 
+.people {
+    margin-left: 250px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #0c0c0c;
+}
+
 /* title formatting */
 
 .titleContainer {
@@ -164,9 +171,6 @@ body {
 }
 
 /* trailer */
-.trailer-container {
-
-}
 
 .trailer-container {
     background-color: #0c0c0c;
@@ -242,6 +246,9 @@ body {
     width: 100%;
     color: #fff;
 }
+/* about */
+
+/* people */
 
 .headshot-container {
     padding-bottom: 20px;
@@ -275,41 +282,4 @@ body {
     padding-right: 50px;
 }
 
-/* blog */
-
-.blog-container {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.blog-post {
-    margin: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: inline-block;
-    width: 300px;
-    height: 400px;
-}
-
-.blog-pic {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.blog-title {
-    font-family: 'PT Sans', sans-serif;
-    display: inline-block;
-    padding-bottom: 4px;
-    font-size: 20pt;
-}
-
-.blog-content {
-    padding: 5px;
-    text-align: left;
-}
-
-.blogcta {
-    text-decoration: underline;
-}
+/* people */
