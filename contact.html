@@ -5,7 +5,7 @@
     <title>Pesky Artist // Live Pesky</title>
     <link rel="icon" type="" href="">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.5/destyle.css">
-    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/contact-style.css">
     <meta name="description" content="Pesky Artist is a film production company based in Merseyside, we make stuff, it's pretty cool.">
     <meta tags="film, production, company, movies, short, television, online, wirral, moreton, birkenhead, liverpool">
     <meta name="author" content="TLClassless">
@@ -34,8 +34,35 @@
 
     <!-- contact title bar -->
     <div class="contact-form">
-        <h2 class="ptOne">Contact</h2>
-        <h2 class="ptTwo">Us</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum rem dolorum odio dolorem sequi harum vero, doloremque nisi facilis cum quasi aspernatur iure totam placeat tempora dolore architecto illo, rerum.</p>
+        <div class="contact-form-title">
+            <h2 class="ptOne">Contact</h2>
+            <h2 class="ptTwo">Us</h2>
+        </div>
+        <div class="contact-text">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
     </div>
 </body>
